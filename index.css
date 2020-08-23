@@ -1,0 +1,75 @@
+.btn-nc {
+    background-color: #273c75 ;
+    color: white;
+}
+
+.btn-nc:hover {
+    background-color: #3498db;
+    /*background-color: #5dc1b9;*/
+}
+
+.text-nc {
+    color: #3498db !important;
+}
+
+.bg-nc {
+    background: linear-gradient(90deg, #1e272e, #576574 25% , #485460);
+    /*background: linear-gradient(90deg, #212324, #494b4d 25%, #85888a);*/
+}
+
+#header img {
+    width: 65px;
+}
+#header {
+    color: white;
+}
+
+#hero-carousel img {
+    height: 90vh;
+    object-fit: cover;
+    filter: grayscale(60%);
+}
+
+.capa-hero {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.capa-hero .container,
+.container .row {
+    height: 100%;
+}
+
+#curses {
+    background-color: #d2dae2;
+    margin-top: 0;
+}
+
+
+#information {
+    background: linear-gradient(90deg, #1e272e, #576574 25% , #485460);
+    color: white;
+}
+
+#information img {
+    max-width: 100%;
+}
+
+#form {
+    background-color: #d2dae2;
+}
+
+#footer {
+    background: linear-gradient(90deg, #1e272e, #576574 25% , #485460);
+}
+
+#footer img {
+    width: 50px;
+}
+
