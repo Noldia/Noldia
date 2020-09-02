@@ -61,6 +61,7 @@
 #information {
     background: linear-gradient(90deg, #1e272e, #576574 25% , #485460);
     color: white;
+    text-align: justify;
 }
 
 #information img {

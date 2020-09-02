@@ -45,7 +45,7 @@
                                 <a class="nav-link" href="#form">Trabajemos Juntos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-nc" href="#" data-toggle="modal" data-target="#modal-buy">Contactame</a>
+                                <a class="nav-link text-nc" href="#" data-toggle="modal" data-target="#modal-contact">Contactame</a>
                             </li>
                         </ul>
                     </div>
@@ -82,7 +82,7 @@
                                     pero ire agregando cada proyecto nuevo o curso completado que tenga.
                                 </p>
                                 <a href="#" target="_blanck" class="btn btn-outline-light" data-toggle="modal" data-target="#modal-mesage">Visita mi blog</a>
-                                <button class="btn btn-nc" data-toggle="modal" data-target="#modal-buy">Contactame</button>
+                                <button class="btn btn-nc" data-toggle="modal" data-target="#modal-contact">Contactame</button>
                             </div>
                         </div>
                     </div>
@@ -203,7 +203,7 @@
                     <div class="col-12 col-lg-6 pl-0 pr-0">
                         <img src="https://i.imgur.com/1BbKSr5.jpg" title="source: imgur.com" />
                     </div>
-                    <div class="col-12 col-lg-6 pb-4 pt-4 align-self-center">
+                    <div class="col-12 col-lg-6 pr-5 pl-5 align-self-center">
                         <h2>Algo mas sobre mi</h2>
                         <p>
                             Mi nombre es Noldia Chavez Cavero, nací en la ciudad de Arequipa - Perú en 1993.
@@ -302,25 +302,33 @@
         <!-- /Footer -->
 
         <!-- Modal -->
-        <div class="modal fade" id="modal-buy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="modal-contact" tabindex="-1" aria-labelledby="contact" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Enviar Datos</h5>
+                        <h5 class="modal-title" id="sendData">Enviar Datos</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        <form>
-                            <small>Dejame tu twitter o gmail.</small> 
+                        <form class="needs-validation" novalidate>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput">Nombre</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Aquí tu nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput2">Apellido</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Aquí tu apellido">
+                            </div>
+                            <small>Dejame tu twitter o correo electronico.</small> 
                             <div class="form-row">
                                 <div class="form-group col">
                                     <div class="input-group mb-3">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text" id="basic-addon1">@</span>
                                         </div>
-                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                                        <input type="text" class="form-control" placeholder="usuario twitter" aria-label="Username"
                                             aria-describedby="basic-addon1">
                                     </div>
                                 </div>
@@ -328,10 +336,10 @@
                             <div class="form-row">
                                 <div class="form-group col">
                                     <div class="input-group mb-3">
-                                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+                                        <input type="text" class="form-control" placeholder="Aquí tu correo" aria-label="Recipient's username"
                                             aria-describedby="basic-addon2">
                                         <div class="input-group-append">
-                                            <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                                            <span class="input-group-text" id="basic-addon2">@ejemplo.com</span>
                                         </div>
                                     </div>
                                 </div>
@@ -383,7 +391,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
-        <script src="index.js"></script>
     </body>
 
 </html>
