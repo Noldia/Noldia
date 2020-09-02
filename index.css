@@ -51,6 +51,12 @@
     margin-top: 0;
 }
 
+.card-body {
+    align-self: center;
+    width: 300px;
+    height: 380px;
+}
+
 
 #information {
     background: linear-gradient(90deg, #1e272e, #576574 25% , #485460);
